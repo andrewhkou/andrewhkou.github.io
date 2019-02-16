@@ -20,7 +20,7 @@ class PersonalWebsite extends Component {
 
   render() {
     return (
-      <div className="stuff-lmao">
+      <div className="stuff-lmao" data-scroll-speed="0.2">
       {/* <ScrollView decelerationRate={0.5}>
       </ScrollView>  */}
         {/* <header className="Website-header">
@@ -37,7 +37,6 @@ class PersonalWebsite extends Component {
             Learn React
           </a>
         </header> */}
-
         <section>
           <Home/>
         </section>
