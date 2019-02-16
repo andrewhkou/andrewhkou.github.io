@@ -5,7 +5,7 @@ import './Home.css';
 class Home extends Component {
   render() {
     return (
-      <div className = "Home">
+      <div className = "Home" id = "home-fade">
 
         <div className = "nav-bar">
         <a href="#about">

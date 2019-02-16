@@ -20,7 +20,9 @@ class PersonalWebsite extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="stuff-lmao">
+      {/* <ScrollView decelerationRate={0.5}>
+      </ScrollView>  */}
         {/* <header className="Website-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -35,11 +37,28 @@ class PersonalWebsite extends Component {
             Learn React
           </a>
         </header> */}
-        <Home/>
-        <About/>
+
+        <section>
+          <Home/>
+        </section>
+        <section>
+          <About/>
+        </section>
+        <section>
+          <Experiences/>
+        </section>
+        <section>
+          <Projects/>
+        </section>
+        <section>
+          <Contact/>
+        </section>
+
+        
+        {/* <About/>
         <Experiences/>
         <Projects/>
-        <Contact/>
+        <Contact/> */}
       </div>
     );
   }
