@@ -1,0 +1,41 @@
+.About {
+    background-color: #FFFFFF;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Heebo';
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 10%;
+    margin-right: 45%;
+    justify-content: center;
+}
+
+#about-page{
+    color: white;
+}
+/* .About { 
+    font-family: 'Heebo';
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20vh;
+    margin-right: 85vh;
+    justify-content: center;
+} */
+
+.hey-there {
+    font-weight: bold;
+    color: #005377;
+    font-size: 500%;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+.about-text {
+    color: black;
+    font-weight: light;
+    font-size: 250%;
+    margin-top: 0vh;
+}

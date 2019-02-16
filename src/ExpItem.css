@@ -1,0 +1,32 @@
+.ExpItem {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 30%;
+}
+
+.image {
+    height: 100%;
+}
+
+.titlewtf {
+    text-align:left;
+    color: black;
+    font-weight: bold;
+    margin-bottom: -5%;
+}
+
+.descriptionwtf {
+    text-align: left;
+    color: black;
+}
+
+.fuck-shit{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    justify-content: center;
+    margin-left: 10%;
+}

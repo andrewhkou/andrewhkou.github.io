@@ -1,0 +1,103 @@
+.Home {
+    background-color: #272E2C;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav-bar {
+    font-family: 'Heebo';
+    font-weight: normal;
+    justify-content: top;
+    margin-top: 4vh;
+    /* align-items: center; */
+    align-content: flex-start;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-home-text {
+    color: white;
+}
+
+.about-home-text:hover {
+    text-decoration: underline;
+}
+
+.experiences-home-text {
+    color: white;
+}
+
+.experiences-home-text:hover {
+    text-decoration: underline;
+}
+
+.projects-home-text {
+    color: white;
+}
+
+.projects-home-text:hover {
+    text-decoration: underline
+}
+
+.contacts-home-text {
+    color: white;
+}
+
+.contacts-home-text:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.home-stuff {
+    /* align-content: center; */
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.name {
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 6vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.name-subtext {
+    margin-top: 0vh;
+    font-size: 2.5vh;
+    font-family: 'Heebo';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+.profpic {
+    margin-bottom: -1vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 30vmin;
+    border-radius: 50%;
+    pointer-events: none;
+}

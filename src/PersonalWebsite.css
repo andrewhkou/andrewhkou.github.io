@@ -1,4 +1,11 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Heebo:regular,bold,light&subset=latin,latin-ext');
+
+
+body, html {
+  scroll-behavior: smooth;
+}
+
+.PersonalWebsite {
   text-align: center;
 }
 
@@ -8,7 +15,11 @@
   pointer-events: none;
 }
 
-.App-header {
+@font-face {
+  font-family: 'Heebo', sans-serif;
+}
+
+.Website-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -30,4 +41,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
