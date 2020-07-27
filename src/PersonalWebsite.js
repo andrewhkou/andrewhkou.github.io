@@ -21,7 +21,7 @@ class PersonalWebsite extends Component {
             </div>
             <ul className = "about-points">
               <li>Second year CS student at <span class="school"><a class="about-links" href="https://www.youtube.com/watch?v=5srhwqzBQE8" target="_blank">UC Berkeley</a></span></li>
-              <li>Incoming SWE intern at <span class = "intern"><a class="about-links" href="https://www.aboutamazon.com/" target="_blank">Amazon</a></span></li>
+              <li>SWE intern at <span class = "intern"><a class="about-links" href="https://www.aboutamazon.com/" target="_blank">Amazon</a></span></li>
               <li>Developer at <span class="codebase"><a class="about-links" href="https://codebase.berkeley.edu/about/" target="_blank">CodeBase</a></span></li>
               <li>Former design consultant at <span class="uma"><a class="about-links" href="https://www.umaucberkeley.com/" target="_blank">UMA</a></span></li>
               <li>Amateur music producer</li>
