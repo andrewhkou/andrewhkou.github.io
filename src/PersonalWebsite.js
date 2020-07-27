@@ -14,15 +14,15 @@ class PersonalWebsite extends Component {
         <div className = "content-container">
           <div className = "content"> 
             <div className = "greeting-header">
-              👋 Hey! I'm Andrew.
+              <span class="wave">👋</span> Hey! I'm Andrew.
             </div>
             <div className = "greeting-text">
-              This website's gonna look awesome real soon, but in the meantime here's a bit about me. 
+              This website is currently under construction, but in the meantime here's a bit about me. 
             </div>
             <ul className = "about-points">
-              <li>Second year CS student at <span class="school"><a class="about-links" href="https://www.youtube.com/watch?v=5srhwqzBQE8" target="_blank">UC Berkeley</a></span></li>
+              <li>Third year CS student at <span class="school"><a class="about-links" href="https://www.berkeley.edu/" target="_blank">UC Berkeley</a></span></li>
               <li>SWE intern at <span class = "intern"><a class="about-links" href="https://www.aboutamazon.com/" target="_blank">Amazon</a></span></li>
-              <li>Developer at <span class="codebase"><a class="about-links" href="https://codebase.berkeley.edu/about/" target="_blank">CodeBase</a></span></li>
+              <li>Developer at <span class="codebase"><a class="about-links" href="https://codebase.berkeley.edu/" target="_blank">CodeBase</a></span></li>
               <li>Former design consultant at <span class="uma"><a class="about-links" href="https://www.umaucberkeley.com/" target="_blank">UMA</a></span></li>
               <li>Amateur music producer</li>
             </ul>
